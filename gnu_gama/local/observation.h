@@ -1,0 +1,472 @@
+/*
+    GNU Gama -- adjustment of geodetic networks
+    Copyright (C) 2000  Ales Cepek <cepek@fsv.cvut.cz>
+                  2011  Vaclav Petras <wenzeslaus@gmail.com>
+
+    This file is part of the GNU Gama C++ library.
+
+    This library is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 3 of the License, or
+    (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/** \file observation.h
+ * \brief local observation classes header file
+ *
+ * \author Ales Cepek
+ * \author Vaclav Petras (acyclic visitor pattern)
+ */
+
+#ifndef gama_local_Bod_Mer_Mereni_H
+#define gama_local_Bod_Mer_Mereni_H
+
+#ifdef _MSC_VER
+      #define CLONE(ptr) Observation*
+#else
+      #define CLONE(ptr) ptr
+#endif
+
+#include <gnu_gama/local/float.h>
+#include <gnu_gama/local/pointid.h>
+#include <gnu_gama/local/exception.h>
+#include <gnu_gama/local/language.h>
+#include <gnu_gama/visitor.h>
+
+#include <iostream>
+#include <vector>
+
+#include <gnu_gama/obsdata.h>
+#include <gnu_gama/local/matvec.h>
+
+namespace GNU_gama { namespace local {
+
+  class PointData;
+  class Observation;
+
+
+  typedef GNU_gama::List<Observation*> ObservationList;
+
+
+  /** \brief Local observation base class
+   *
+   * \note VisitableObservation class can be used for automatic implementation of accept method.
+   * \note Every derived class should be added to class AllObservationsVisitor.
+   *
+   * \sa VisitableObservation, AllObservationsVisitor
+   */
+  class Observation
+    {
+    public:
+
+      typedef GNU_gama::local::CovMat CovarianceMatrix;
+
+      Observation(const PointID& s, const PointID& c, Double m)
+        :
+        cluster(0), from_(s), to_(c), value_(m), active_(true),
+        from_dh_(0), to_dh_(0)
+        {
+          if (s == c) throw GNU_gama::local::Exception(T_GaMa_from_equals_to);
+        }
+      virtual ~Observation() {}
+
+      /** \brief Cloning method
+       *
+       * Every derived class has to implement this method.
+       */
+      virtual Observation* clone() const = 0;
+
+      /** \brief This is accept method from acyclic visitor pattern.
+       *
+       * Every derived class has to implement this method.
+       *
+       * \sa VisitableObservation
+       */
+      virtual void accept(BaseVisitor* visitor) = 0;
+
+      const GNU_gama::Cluster<Observation>* ptr_cluster() const
+        {
+          return cluster;
+        }
+      GNU_gama::Cluster<Observation>* ptr_cluster()
+        {
+          return cluster;
+        }
+      void set_cluster(GNU_gama::Cluster<Observation>* c)
+        {
+          cluster = c;
+        }
+
+      const PointID& from() const { return from_;    }
+      const PointID& to()   const { return to_;      }
+      Double value()        const { return value_;   }
+      Double stdDev()       const ;
+
+      /** \brief Checks whether observation is active.
+       *
+       * Passive (non-active) observations are usually not taken into account during computations.
+       *
+       * \sa set_active(), set_passive()
+       */
+      bool active() const { return active_; }
+
+      /** \brief Sets observation state to active. */
+      void set_active() { active_ = true; }
+
+      /** \brief Sets observation state to passive (non-active). */
+      void set_passive() { active_ = false; }
+
+      bool check_std_dev() const;
+
+      static  bool gons;   // added in 1.7.09
+
+      // instrument / reflector height
+
+      Double  from_dh() const { return from_dh_; }
+      Double  to_dh  () const { return to_dh_;   }
+
+      void    set_value  (Double v) { value_   = v; }
+      void    set_from_dh(Double h) { from_dh_ = h; }
+      void    set_to_dh  (Double h) { to_dh_   = h; }
+
+      int     dimension() const { return 1; }
+
+    protected:
+
+      /** \brief Constructs only partially initialized object.
+       *
+       * It is necessary to call init().
+       */
+      Observation()
+          : cluster(0), from_(""), to_(""), value_(0), active_(true),
+            from_dh_(0), to_dh_(0)
+      {}
+
+      /** \brief Finishes initialization after Observation(). */
+      void init(const PointID& from, const PointID& to, Double value)
+      {
+          from_ = from;
+          to_ = to;
+          value_ = value;
+      }
+
+      void norm_rad_val()
+      {
+          while (value_ >= 2*M_PI) value_ -= 2*M_PI;
+          while (value_ <   0    ) value_ += 2*M_PI;
+      }
+
+      GNU_gama::Cluster<Observation>* cluster;
+      int      cluster_index;
+      friend   class GNU_gama::Cluster<Observation>;
+
+    private:
+
+      PointID from_;
+      PointID to_;
+      Double        value_;        // observed value
+      mutable bool  active_;       // set false for unused observation
+      Double        from_dh_;      // height of instrument
+      Double        to_dh_;        // height of reflector
+    };
+
+
+  class Distance : public Accept<Distance, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Distance(const PointID& s, const PointID& c, Double d)
+        {
+          if (d <= 0)
+            throw GNU_gama::local::Exception(T_POBS_zero_or_negative_distance);
+          init(s, c, d);
+        }
+      ~Distance() {}
+
+      CLONE(Distance*) clone() const { return new Distance(*this); }
+    };
+
+
+  class Direction : public Accept<Direction, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Direction(const PointID& s, const PointID& c,  Double d)
+        {
+          init(s, c, d);
+          norm_rad_val();
+        }
+      ~Direction() {}
+
+      CLONE(Direction*) clone() const { return new Direction(*this); }
+
+      Double orientation() const;
+      void   set_orientation(Double p);
+      bool   test_orientation() const;
+      void   delete_orientation();
+      void   index_orientation(int n);
+      int    index_orientation() const;
+    };
+
+
+  class Angle : public Accept<Angle, Observation>
+    {
+    private:
+      PointID fs_;
+      Double  fs_dh_;
+    public:
+      void write(std::ostream& out, bool) const;
+      Angle(const PointID& s, const PointID& b,  const PointID& f, Double d)
+          : fs_(f), fs_dh_(0)
+        {
+          /* was: if (s == c2 || c == c2) ...; from 1.3.31 we allow
+           * left and right targets to be identical, surely this is
+           * not an realistic case but it's useful in g2d_point.h:67
+           * and should not cause a trouble elsewhere */
+          if (s == f)
+            throw GNU_gama::local::Exception(T_GaMa_from_equals_to);
+          init(s, b, d);
+          norm_rad_val();
+        }
+      ~Angle() {}
+
+      CLONE(Angle*) clone() const { return new Angle(*this); }
+
+      const PointID& bs() const { return to(); }     // backsight station
+      const PointID& fs() const { return fs_;  }     // foresight station
+
+      Double bs_dh() const       { return to_dh(); }
+      void   set_bs_dh(Double h) { set_to_dh(h);   }
+      Double fs_dh() const       { return fs_dh_;  }
+      void   set_fs_dh(Double h) { fs_dh_ = h;     }
+    };
+
+
+  // height differences
+
+  class H_Diff : public Accept<H_Diff, Observation>
+    {
+    private:
+      Double dist_;
+    public:
+      void write(std::ostream& out, bool) const;
+      H_Diff(const PointID& s, const PointID& c, Double dh, Double d=0)
+        : dist_(d)
+        {
+          if (d < 0)   // zero distance is legal in H_Diff
+            throw GNU_gama::local::Exception(T_POBS_zero_or_negative_distance);
+          init(s, c, dh);
+        }
+      ~H_Diff() {}
+
+      CLONE(H_Diff*) clone() const { return new H_Diff(*this); }
+
+      void   set_dist(Double d)
+        {
+          if (d < 0)    // zero distance is legal in H_Diff
+            throw GNU_gama::local::Exception(T_POBS_zero_or_negative_distance);
+          dist_ = d;
+        }
+      Double dist() const { return dist_; }
+    };
+
+
+  // coordinate differences (vectors)  dx, dy, dz
+
+  class Xdiff : public Accept<Xdiff, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Xdiff(const PointID& from, const PointID& to, Double dx)
+      {
+          init(from, to, dx);
+      }
+      ~Xdiff() {}
+
+      CLONE(Xdiff*) clone() const { return new Xdiff(*this); }
+    };
+
+  class Ydiff : public Accept<Ydiff, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Ydiff(const PointID& from, const PointID& to, Double dy)
+      {
+          init(from, to, dy);
+      }
+      ~Ydiff() {}
+
+      CLONE(Ydiff*) clone() const { return new Ydiff(*this); }
+    };
+
+  class Zdiff : public Accept<Zdiff, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Zdiff(const PointID& from, const PointID& to, Double dz)
+      {
+          init(from, to, dz);
+      }
+      ~Zdiff() {}
+
+      CLONE(Zdiff*) clone() const { return new Zdiff(*this); }
+    };
+
+
+  // coordinate observations (observed coordinates)  x, y, z
+
+  class X : public Accept<X, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      X(const PointID& point, Double x)
+      {
+          init(point, "", x);
+      }
+
+      ~X() {}
+
+      CLONE(X*) clone() const { return new X(*this); }
+    };
+
+  class Y : public Accept<Y, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Y(const PointID& point, Double y)
+      {
+          init(point, "", y);
+      }
+
+      ~Y() {}
+
+      CLONE(Y*) clone() const { return new Y(*this); }
+    };
+
+  class Z : public Accept<Z, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Z(const PointID& point, Double z)
+      {
+          init(point, "", z);
+      }
+
+      ~Z() {}
+
+      CLONE(Z*) clone() const { return new Z(*this); }
+    };
+
+
+  // slope observations (slope distances and zenith angles)
+
+  class S_Distance : public Accept<S_Distance, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      S_Distance(const PointID& s, const PointID& c, Double d)
+        {
+          if (d <= 0)
+            throw GNU_gama::local::Exception(T_POBS_zero_or_negative_distance);
+          init(s, c, d);
+        }
+
+      ~S_Distance() {}
+
+      CLONE(S_Distance*) clone() const { return new S_Distance(*this); }
+    };
+
+
+  class Z_Angle : public Accept<Z_Angle, Observation>
+    {
+    public:
+      void write(std::ostream& out, bool) const;
+      Z_Angle(const PointID& s, const PointID& c, Double d)
+        {
+          if (d <= 0)
+            throw GNU_gama::local::Exception(T_POBS_zero_or_negative_distance);
+          init(s, c, d);
+        }
+
+      ~Z_Angle() {}
+
+      CLONE(Z_Angle*) clone() const { return new Z_Angle(*this); }
+    };
+
+  /** \brief Base class for visitors which visit all observations
+   *
+   * AllObservationsVisitor is a interface for visitors which visit all observations.
+   * It ensures implementing all visit methods.
+   *
+   * Acyclic visitor pattern does not require the ability to visit all classes from hierarchy.
+   * However, most observation visitors visit all observations.
+   *
+   * AllObservationsVisitor should be used as a base class
+   * when visitor is expected to deal with all kinds of local observations
+   * (classes derived from Observation).
+   * When a new local observation type is created, it should be added to AllObservationsVisitor
+   * to ensure that compiler will warn about visitors that want to visit all observations
+   * but they don't.
+   *
+   * Example of using AllObservationsVisitor:
+   * \code
+   * class SomeVisitor : public GNU_gama::local::AllObservationsVisitor
+   * {
+   *     void visit(Direction* d)
+   *     {
+   *         // ...
+   *     }
+   *     // ...
+   * };
+   * \endcode
+   *
+   * List of functions to be implemented:
+   * \code
+   * void visit(Distance* obs)
+   * void visit(Direction* obs)
+   * void visit(Angle* obs)
+   * void visit(H_Diff* obs)
+   * void visit(S_Distance* obs)
+   * void visit(Z_Angle* obs)
+   * void visit(X* obs)
+   * void visit(Y* obs)
+   * void visit(Z* obs)
+   * void visit(Xdiff* obs)
+   * void visit(Ydiff* obs)
+   * void visit(Zdiff* obs)
+   * \endcode
+   *
+   * \sa BaseVisitor, Visitor
+   */
+  class AllObservationsVisitor :
+          public BaseVisitor,
+          public Visitor<Direction>,
+          public Visitor<Distance>,
+          public Visitor<Angle>,
+          public Visitor<H_Diff>,
+          public Visitor<S_Distance>,
+          public Visitor<Z_Angle>,
+          public Visitor<X>,
+          public Visitor<Y>,
+          public Visitor<Z>,
+          public Visitor<Xdiff>,
+          public Visitor<Ydiff>,
+          public Visitor<Zdiff>
+  {
+  };
+
+
+}}   // namespace GNU_gama::local
+
+#undef CLONE
+
+#endif
