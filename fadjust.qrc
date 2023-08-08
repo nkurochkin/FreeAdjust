@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="adjust.png">images/icons/Adjust.png</file>
+        <file alias="exit.png">images/icons/exit.png</file>
+        <file alias="open.png">images/icons/open.png</file>
+        <file alias="save.png">images/icons/save.png</file>
+        <file alias="dev_import.png">images/icons/dev_import.png</file>
+        <file alias="file_import.png">images/icons/file_import.png</file>
+        <file alias="2dv_view">images/icons/2dv_view.png</file>
+        <file alias="fileprint">images/icons/fileprint.png</file>
+        <file alias="printsetup">images/icons/printsetup.png</file>
+        <file alias="fadjust">images/icons/fadjust.png</file>
+    </qresource>
+</RCC>
