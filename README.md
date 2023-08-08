@@ -1,5 +1,5 @@
 # FreeAdjust
-This is old QT project for adjusting пeodetic measuremnts. 
+This is old QT project for adjusting geodetic measuremnts. 
 Placed here to keep work.
 Provides graphics user interface to gnu_gama project
 Can import data from different total stations directle via com port or from files
