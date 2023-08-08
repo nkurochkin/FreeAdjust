@@ -1,0 +1,531 @@
+<?xml version="1.0" ?>
+<!DOCTYPE gama-local SYSTEM "gama-local.dtd">
+<gama-local version="2.0">
+<network axes-xy="ne">
+<description>
+</description>
+<parameters
+  sigma-apr="10"
+  conf-pr="0.95"
+  tol-abs="1000"
+  sigma-act="aposteriori"
+/>
+<points-observations
+distance-stdev="5.0"
+direction-stdev="5.0"
+angle-stdev="5.0"
+zenith-angle-stdev="5.0"
+>
+<point id="T001" comment="" adj="xyz"/>
+<point id="T002" comment="" adj="xyz"/>
+<point id="001" comment="" adj="xyz"/>
+<point id="002" comment="" adj="xyz"/>
+<point id="003" comment="" adj="xyz"/>
+<point id="004" comment="" adj="xyz"/>
+<point id="005" comment="" adj="xyz"/>
+<point id="006" comment="" adj="xyz"/>
+<point id="007" comment="" adj="xyz"/>
+<point id="008" comment="" adj="xyz"/>
+<point id="009" comment="" adj="xyz"/>
+<point id="010" comment="" adj="xyz"/>
+<point id="011" comment="" adj="xyz"/>
+<point id="012" comment="" adj="xyz"/>
+<point id="013" comment="" adj="xyz"/>
+<point id="014" comment="" adj="xyz"/>
+<point id="015" comment="" adj="xyz"/>
+<point id="016" comment="" adj="xyz"/>
+<point id="017" comment="" adj="xyz"/>
+<point id="018" comment="" adj="xyz"/>
+<point id="019" comment="" adj="xyz"/>
+<point id="020" comment="" adj="xyz"/>
+<point id="021" comment="" adj="xyz"/>
+<point id="022" comment="" adj="xyz"/>
+<point id="023" comment="" adj="xyz"/>
+<point id="024" comment="" adj="xyz"/>
+<point id="025" comment="" adj="xyz"/>
+<point id="026" comment="" adj="xyz"/>
+<point id="027" comment="" adj="xyz"/>
+<point id="028" comment="" adj="xyz"/>
+<point id="029" comment="" adj="xyz"/>
+<point id="030" comment="" adj="xyz"/>
+<point id="031" comment="" adj="xyz"/>
+<point id="032" comment="" adj="xyz"/>
+<point id="033" comment="" adj="xyz"/>
+<point id="034" comment="" adj="xyz"/>
+<point id="035" comment="" adj="xyz"/>
+<point id="036" comment="" adj="xyz"/>
+<point id="037" comment="" adj="xyz"/>
+<point id="038" comment="" adj="xyz"/>
+<point id="039" comment="" adj="xyz"/>
+<point id="040" comment="" adj="xyz"/>
+<point id="041" comment="" adj="xyz"/>
+<point id="042" comment="" adj="xyz"/>
+<point id="043" comment="" adj="xyz"/>
+<point id="044" comment="" adj="xyz"/>
+<point id="045" comment="" adj="xyz"/>
+<point id="046" comment="" adj="xyz"/>
+<point id="047" comment="" adj="xyz"/>
+<point id="048" comment="" adj="xyz"/>
+<point id="049" comment="" adj="xyz"/>
+<point id="050" comment="" adj="xyz"/>
+<point id="T003" comment="" adj="xyz"/>
+<point id="051" comment="" adj="xyz"/>
+<point id="052" comment="" adj="xyz"/>
+<point id="053" comment="" adj="xyz"/>
+<point id="054" comment="" adj="xyz"/>
+<point id="055" comment="" adj="xyz"/>
+<point id="056" comment="" adj="xyz"/>
+<point id="057" comment="" adj="xyz"/>
+<point id="058" comment="" adj="xyz"/>
+<point id="059" comment="" adj="xyz"/>
+<point id="060" comment="" adj="xyz"/>
+<point id="061" comment="" adj="xyz"/>
+<point id="062" comment="" adj="xyz"/>
+<point id="063" comment="" adj="xyz"/>
+<point id="064" comment="" adj="xyz"/>
+<point id="065" comment="" adj="xyz"/>
+<point id="066" comment="" adj="xyz"/>
+<point id="067" comment="" adj="xyz"/>
+<point id="068" comment="" adj="xyz"/>
+<point id="069" comment="" adj="xyz"/>
+<point id="070" comment="" adj="xyz"/>
+<point id="071" comment="" adj="xyz"/>
+<point id="072" comment="" adj="xyz"/>
+<point id="073" comment="" adj="xyz"/>
+<point id="074" comment="" adj="xyz"/>
+<point id="075" comment="" adj="xyz"/>
+<point id="076" comment="" adj="xyz"/>
+<point id="077" comment="" adj="xyz"/>
+<point id="078" comment="" adj="xyz"/>
+<point id="079" comment="" adj="xyz"/>
+<point id="080" comment="" adj="xyz"/>
+<point id="081" comment="" adj="xyz"/>
+<point id="082" comment="" adj="xyz"/>
+<point id="083" comment="" adj="xyz"/>
+<point id="084" comment="" adj="xyz"/>
+<point id="085" comment="" adj="xyz"/>
+<point id="T004" comment="" adj="xyz"/>
+<point id="PP3000" comment="PP3093" x="418952.998" y="1311983.971" z="4.080" fix="xyz" adj="xyz"/>
+<point id="PP" comment="PP_D" x="419189.631" y="1312156.892" z="5.580" fix="xyz" adj="xyz"/>
+<obs from="T001" from_dh="1.543" active="1" >
+ <target name="T002" active="1" />
+ <s-distance to="T002" val="26.998000" to_dh="1.460" active="1" />
+ <direction to="T002" val="-31.3981481481" active="1" />
+ <z-angle to="T002" val="100.1212962963" to_dh="1.460" active="1" />
+ <s-distance to="T002" val="26.980000" to_dh="1.460" active="1" />
+ <direction to="T002" val="-31.4058641975" active="1" />
+ <z-angle to="T002" val="100.1160493827" to_dh="1.460" active="1" />
+ <target name="001" active="1" />
+ <s-distance to="001" val="9.611000" to_dh="1.460" active="1" />
+ <direction to="001" val="168.0401234568" active="1" />
+ <z-angle to="001" val="100.7154320988" to_dh="1.460" active="1" />
+ <target name="002" active="1" />
+ <s-distance to="002" val="18.043000" to_dh="1.460" active="1" />
+ <direction to="002" val="127.8907407407" active="1" />
+ <z-angle to="002" val="100.2570987654" to_dh="1.460" active="1" />
+ <target name="003" active="1" />
+ <s-distance to="003" val="19.728000" to_dh="1.460" active="1" />
+ <direction to="003" val="123.6450617284" active="1" />
+ <z-angle to="003" val="99.6626543210" to_dh="1.460" active="1" />
+ <target name="004" active="1" />
+ <s-distance to="004" val="12.212000" to_dh="1.460" active="1" />
+ <direction to="004" val="79.4225308642" active="1" />
+ <z-angle to="004" val="95.6879629630" to_dh="1.460" active="1" />
+ <target name="005" active="1" />
+ <s-distance to="005" val="14.906000" to_dh="1.460" active="1" />
+ <direction to="005" val="72.5009259259" active="1" />
+ <z-angle to="005" val="93.9645061728" to_dh="1.460" active="1" />
+ <target name="006" active="1" />
+ <s-distance to="006" val="12.086000" to_dh="1.460" active="1" />
+ <direction to="006" val="78.6413580247" active="1" />
+ <z-angle to="006" val="106.8484567901" to_dh="1.460" active="1" />
+ <target name="007" active="1" />
+ <s-distance to="007" val="10.073000" to_dh="1.460" active="1" />
+ <direction to="007" val="80.5320987654" active="1" />
+ <z-angle to="007" val="100.3617283951" to_dh="1.460" active="1" />
+ <target name="008" active="1" />
+ <s-distance to="008" val="12.130000" to_dh="1.460" active="1" />
+ <direction to="008" val="46.3438271605" active="1" />
+ <z-angle to="008" val="100.1000000000" to_dh="1.460" active="1" />
+ <target name="009" active="1" />
+ <s-distance to="009" val="14.862000" to_dh="1.460" active="1" />
+ <direction to="009" val="49.4296296296" active="1" />
+ <z-angle to="009" val="94.4870370370" to_dh="1.460" active="1" />
+ <target name="010" active="1" />
+ <s-distance to="010" val="11.828000" to_dh="1.460" active="1" />
+ <direction to="010" val="41.7743827160" active="1" />
+ <z-angle to="010" val="107.2237654321" to_dh="1.460" active="1" />
+ <target name="011" active="1" />
+ <s-distance to="011" val="12.980000" to_dh="1.460" active="1" />
+ <direction to="011" val="27.9858024691" active="1" />
+ <z-angle to="011" val="106.5382716049" to_dh="1.460" active="1" />
+ <target name="012" active="1" />
+ <s-distance to="012" val="14.616000" to_dh="1.460" active="1" />
+ <direction to="012" val="17.1617283951" active="1" />
+ <z-angle to="012" val="105.7774691358" to_dh="1.460" active="1" />
+ <target name="013" active="1" />
+ <s-distance to="013" val="16.759000" to_dh="1.460" active="1" />
+ <direction to="013" val="11.0901234568" active="1" />
+ <z-angle to="013" val="95.4330246914" to_dh="1.460" active="1" />
+ <target name="014" active="1" />
+ <s-distance to="014" val="17.389000" to_dh="1.460" active="1" />
+ <direction to="014" val="8.1839506173" active="1" />
+ <z-angle to="014" val="99.6364197531" to_dh="1.460" active="1" />
+ <target name="015" active="1" />
+ <s-distance to="015" val="18.246000" to_dh="1.460" active="1" />
+ <direction to="015" val="5.6151234568" active="1" />
+ <z-angle to="015" val="99.5342592593" to_dh="1.460" active="1" />
+ <target name="016" active="1" />
+ <s-distance to="016" val="24.702000" to_dh="1.460" active="1" />
+ <direction to="016" val="-3.0725308642" active="1" />
+ <z-angle to="016" val="96.7172839506" to_dh="1.460" active="1" />
+ <target name="017" active="1" />
+ <s-distance to="017" val="26.205000" to_dh="1.460" active="1" />
+ <direction to="017" val="-1.4898148148" active="1" />
+ <z-angle to="017" val="96.1777777778" to_dh="1.460" active="1" />
+ <target name="018" active="1" />
+ <s-distance to="018" val="27.502000" to_dh="1.460" active="1" />
+ <direction to="018" val="-3.2194444444" active="1" />
+ <z-angle to="018" val="96.5367283951" to_dh="1.460" active="1" />
+ <target name="019" active="1" />
+ <s-distance to="019" val="26.386000" to_dh="1.460" active="1" />
+ <direction to="019" val="-7.5496913580" active="1" />
+ <z-angle to="019" val="97.9922839506" to_dh="1.460" active="1" />
+ <target name="020" active="1" />
+ <s-distance to="020" val="28.172000" to_dh="1.460" active="1" />
+ <direction to="020" val="-9.8413580247" active="1" />
+ <z-angle to="020" val="99.7237654321" to_dh="1.460" active="1" />
+ <target name="021" active="1" />
+ <s-distance to="021" val="24.943000" to_dh="1.460" active="1" />
+ <direction to="021" val="-10.3052469136" active="1" />
+ <z-angle to="021" val="99.8663580247" to_dh="1.460" active="1" />
+ <target name="022" active="1" />
+ <s-distance to="022" val="22.704000" to_dh="1.460" active="1" />
+ <direction to="022" val="-35.7046296296" active="1" />
+ <z-angle to="022" val="100.1651234568" to_dh="1.460" active="1" />
+ <target name="023" active="1" />
+ <s-distance to="023" val="15.260000" to_dh="1.460" active="1" />
+ <direction to="023" val="-46.1046296296" active="1" />
+ <z-angle to="023" val="99.9466049383" to_dh="1.460" active="1" />
+ <target name="024" active="1" />
+ <s-distance to="024" val="9.499000" to_dh="1.460" active="1" />
+ <direction to="024" val="-51.3598765432" active="1" />
+ <z-angle to="024" val="100.1401234568" to_dh="1.460" active="1" />
+ <target name="025" active="1" />
+ <s-distance to="025" val="8.393000" to_dh="1.460" active="1" />
+ <direction to="025" val="-51.4077160494" active="1" />
+ <z-angle to="025" val="100.0503086420" to_dh="1.460" active="1" />
+ <target name="026" active="1" />
+ <s-distance to="026" val="4.494000" to_dh="1.460" active="1" />
+ <direction to="026" val="-67.8271604938" active="1" />
+ <z-angle to="026" val="100.0330246914" to_dh="1.460" active="1" />
+ <target name="027" active="1" />
+ <s-distance to="027" val="9.168000" to_dh="1.460" active="1" />
+ <direction to="027" val="-106.6521604938" active="1" />
+ <z-angle to="027" val="100.2398148148" to_dh="1.460" active="1" />
+ <target name="028" active="1" />
+ <s-distance to="028" val="3.225000" to_dh="1.460" active="1" />
+ <direction to="028" val="-35.4456790123" active="1" />
+ <z-angle to="028" val="101.0033950617" to_dh="1.460" active="1" />
+ <target name="029" active="1" />
+ <s-distance to="029" val="6.871000" to_dh="1.460" active="1" />
+ <direction to="029" val="60.0095679012" active="1" />
+ <z-angle to="029" val="100.6234567901" to_dh="1.460" active="1" />
+ <target name="030" active="1" />
+ <s-distance to="030" val="9.436000" to_dh="1.460" active="1" />
+ <direction to="030" val="89.2700617284" active="1" />
+ <z-angle to="030" val="100.6302469136" to_dh="1.460" active="1" />
+ <target name="031" active="1" />
+ <s-distance to="031" val="8.128000" to_dh="1.460" active="1" />
+ <direction to="031" val="131.2444444444" active="1" />
+ <z-angle to="031" val="100.7768518519" to_dh="1.460" active="1" />
+ <target name="032" active="1" />
+ <s-distance to="032" val="11.395000" to_dh="1.460" active="1" />
+ <direction to="032" val="23.3793209877" active="1" />
+ <z-angle to="032" val="100.4651234568" to_dh="1.460" active="1" />
+ <target name="033" active="1" />
+ <s-distance to="033" val="12.166000" to_dh="1.460" active="1" />
+ <direction to="033" val="21.7237654321" active="1" />
+ <z-angle to="033" val="100.3537037037" to_dh="1.460" active="1" />
+ <target name="034" active="1" />
+ <s-distance to="034" val="26.635000" to_dh="1.460" active="1" />
+ <direction to="034" val="-34.0095679012" active="1" />
+ <z-angle to="034" val="100.1654320988" to_dh="1.460" active="1" />
+ <target name="035" active="1" />
+ <s-distance to="035" val="28.077000" to_dh="1.460" active="1" />
+ <direction to="035" val="-34.4141975309" active="1" />
+ <z-angle to="035" val="100.1311728395" to_dh="1.460" active="1" />
+ <target name="036" active="1" />
+ <s-distance to="036" val="25.199000" to_dh="1.460" active="1" />
+ <direction to="036" val="-11.8858024691" active="1" />
+ <z-angle to="036" val="99.9753086420" to_dh="1.460" active="1" />
+ <target name="037" active="1" />
+ <s-distance to="037" val="23.495000" to_dh="0.000" active="1" />
+ <direction to="037" val="85.0635802469" active="1" />
+ <z-angle to="037" val="84.9842592593" to_dh="0.000" active="1" />
+ <target name="038" active="1" />
+ <s-distance to="038" val="23.490000" to_dh="0.000" active="1" />
+ <direction to="038" val="84.8540123457" active="1" />
+ <z-angle to="038" val="84.9836419753" to_dh="0.000" active="1" />
+ <target name="039" active="1" />
+ <s-distance to="039" val="37.316000" to_dh="0.000" active="1" />
+ <direction to="039" val="76.7922839506" active="1" />
+ <z-angle to="039" val="85.8641975309" to_dh="0.000" active="1" />
+ <target name="040" active="1" />
+ <s-distance to="040" val="37.057000" to_dh="0.000" active="1" />
+ <direction to="040" val="123.7151234568" active="1" />
+ <z-angle to="040" val="88.6518518519" to_dh="0.000" active="1" />
+ <target name="041" active="1" />
+ <s-distance to="041" val="36.030000" to_dh="0.000" active="1" />
+ <direction to="041" val="125.2410493827" active="1" />
+ <z-angle to="041" val="91.0145061728" to_dh="0.000" active="1" />
+ <target name="042" active="1" />
+ <s-distance to="042" val="22.323000" to_dh="0.000" active="1" />
+ <direction to="042" val="86.5500000000" active="1" />
+ <z-angle to="042" val="85.4114197531" to_dh="0.000" active="1" />
+ <target name="043" active="1" />
+ <s-distance to="043" val="14.947000" to_dh="0.000" active="1" />
+ <direction to="043" val="75.5570987654" active="1" />
+ <z-angle to="043" val="91.2753086420" to_dh="0.000" active="1" />
+ <target name="044" active="1" />
+ <s-distance to="044" val="15.654000" to_dh="0.000" active="1" />
+ <direction to="044" val="38.6771604938" active="1" />
+ <z-angle to="044" val="91.5466049383" to_dh="0.000" active="1" />
+ <target name="045" active="1" />
+ <s-distance to="045" val="17.082000" to_dh="0.000" active="1" />
+ <direction to="045" val="41.1543209877" active="1" />
+ <z-angle to="045" val="82.7913580247" to_dh="0.000" active="1" />
+ <target name="046" active="1" />
+ <s-distance to="046" val="27.296000" to_dh="0.000" active="1" />
+ <direction to="046" val="0.5487654321" active="1" />
+ <z-angle to="046" val="89.3543209877" to_dh="0.000" active="1" />
+ <target name="047" active="1" />
+ <s-distance to="047" val="29.002000" to_dh="0.000" active="1" />
+ <direction to="047" val="7.1555555556" active="1" />
+ <z-angle to="047" val="90.1314814815" to_dh="0.000" active="1" />
+ <target name="048" active="1" />
+ <s-distance to="048" val="31.719000" to_dh="0.000" active="1" />
+ <direction to="048" val="2.1885802469" active="1" />
+ <z-angle to="048" val="92.1558641975" to_dh="0.000" active="1" />
+ <target name="049" active="1" />
+ <s-distance to="049" val="29.396000" to_dh="0.000" active="1" />
+ <direction to="049" val="-9.8524691358" active="1" />
+ <z-angle to="049" val="98.0851851852" to_dh="0.000" active="1" />
+ <target name="050" active="1" />
+ <s-distance to="050" val="23.317000" to_dh="0.000" active="1" />
+ <direction to="050" val="46.4746913580" active="1" />
+ <z-angle to="050" val="87.0145061728" to_dh="0.000" active="1" />
+</obs>
+<obs from="T002" from_dh="1.532" active="1" >
+ <target name="T001" active="1" />
+ <s-distance to="T001" val="26.996000" to_dh="1.460" active="1" />
+ <direction to="T001" val="3.0922839506" active="1" />
+ <z-angle to="T001" val="100.2370370370" to_dh="1.460" active="1" />
+ <s-distance to="T001" val="26.995000" to_dh="1.460" active="1" />
+ <direction to="T001" val="3.0953703704" active="1" />
+ <z-angle to="T001" val="100.2379629630" to_dh="1.460" active="1" />
+ <target name="T003" active="1" />
+ <s-distance to="T003" val="89.631000" to_dh="1.460" active="1" />
+ <direction to="T003" val="-198.0719135802" active="1" />
+ <z-angle to="T003" val="99.4753086420" to_dh="1.460" active="1" />
+ <s-distance to="T003" val="89.636000" to_dh="1.460" active="1" />
+ <direction to="T003" val="-198.0685185185" active="1" />
+ <z-angle to="T003" val="99.4703703704" to_dh="1.460" active="1" />
+ <s-distance to="T003" val="89.625000" to_dh="1.460" active="1" />
+ <direction to="T003" val="-198.0756172840" active="1" />
+ <z-angle to="T003" val="99.4737654321" to_dh="1.460" active="1" />
+ <target name="051" active="1" />
+ <s-distance to="051" val="21.420000" to_dh="1.460" active="1" />
+ <direction to="051" val="194.8907407407" active="1" />
+ <z-angle to="051" val="99.8373456790" to_dh="1.460" active="1" />
+ <target name="052" active="1" />
+ <s-distance to="052" val="25.104000" to_dh="1.460" active="1" />
+ <direction to="052" val="195.4314814815" active="1" />
+ <z-angle to="052" val="99.6941358025" to_dh="1.460" active="1" />
+ <target name="053" active="1" />
+ <s-distance to="053" val="20.368000" to_dh="1.460" active="1" />
+ <direction to="053" val="188.2364197531" active="1" />
+ <z-angle to="053" val="96.5651234568" to_dh="1.460" active="1" />
+ <target name="054" active="1" />
+ <s-distance to="054" val="12.644000" to_dh="1.460" active="1" />
+ <direction to="054" val="181.2839506173" active="1" />
+ <z-angle to="054" val="99.1151234568" to_dh="1.460" active="1" />
+ <target name="055" active="1" />
+ <s-distance to="055" val="11.558000" to_dh="1.460" active="1" />
+ <direction to="055" val="178.9200617284" active="1" />
+ <z-angle to="055" val="99.2688271605" to_dh="1.460" active="1" />
+ <target name="056" active="1" />
+ <s-distance to="056" val="7.512000" to_dh="1.460" active="1" />
+ <direction to="056" val="185.6533950617" active="1" />
+ <z-angle to="056" val="100.3993827160" to_dh="1.460" active="1" />
+ <target name="057" active="1" />
+ <s-distance to="057" val="4.218000" to_dh="1.460" active="1" />
+ <direction to="057" val="73.9290123457" active="1" />
+ <z-angle to="057" val="93.9466049383" to_dh="1.460" active="1" />
+ <target name="058" active="1" />
+ <s-distance to="058" val="19.825000" to_dh="1.460" active="1" />
+ <direction to="058" val="193.2805555556" active="1" />
+ <z-angle to="058" val="99.1345679012" to_dh="1.460" active="1" />
+ <target name="059" active="1" />
+ <s-distance to="059" val="16.119000" to_dh="1.460" active="1" />
+ <direction to="059" val="196.5768518519" active="1" />
+ <z-angle to="059" val="100.0404320988" to_dh="1.460" active="1" />
+ <target name="060" active="1" />
+ <s-distance to="060" val="10.073000" to_dh="1.460" active="1" />
+ <direction to="060" val="-198.9929012346" active="1" />
+ <z-angle to="060" val="100.1351851852" to_dh="1.460" active="1" />
+ <target name="061" active="1" />
+ <s-distance to="061" val="9.776000" to_dh="1.460" active="1" />
+ <direction to="061" val="-101.5503086420" active="1" />
+ <z-angle to="061" val="98.1518518519" to_dh="1.460" active="1" />
+ <target name="062" active="1" />
+ <s-distance to="062" val="14.862000" to_dh="1.460" active="1" />
+ <direction to="062" val="-100.5780864198" active="1" />
+ <z-angle to="062" val="99.9533950617" to_dh="1.460" active="1" />
+ <target name="063" active="1" />
+ <s-distance to="063" val="15.805000" to_dh="1.460" active="1" />
+ <direction to="063" val="-97.8938271605" active="1" />
+ <z-angle to="063" val="99.8919753086" to_dh="1.460" active="1" />
+ <target name="064" active="1" />
+ <s-distance to="064" val="9.033000" to_dh="1.460" active="1" />
+ <direction to="064" val="-96.0003086420" active="1" />
+ <z-angle to="064" val="98.9753086420" to_dh="1.460" active="1" />
+ <target name="065" active="1" />
+ <s-distance to="065" val="16.921000" to_dh="1.460" active="1" />
+ <direction to="065" val="-84.6283950617" active="1" />
+ <z-angle to="065" val="87.3033950617" to_dh="1.460" active="1" />
+ <target name="066" active="1" />
+ <s-distance to="066" val="16.289000" to_dh="1.460" active="1" />
+ <direction to="066" val="-90.2043209877" active="1" />
+ <z-angle to="066" val="86.7919753086" to_dh="1.460" active="1" />
+ <target name="067" active="1" />
+ <s-distance to="067" val="15.196000" to_dh="1.460" active="1" />
+ <direction to="067" val="-89.0114197531" active="1" />
+ <z-angle to="067" val="85.8351851852" to_dh="1.460" active="1" />
+ <target name="068" active="1" />
+ <s-distance to="068" val="10.743000" to_dh="1.460" active="1" />
+ <direction to="068" val="-79.6179012346" active="1" />
+ <z-angle to="068" val="98.8416666667" to_dh="1.460" active="1" />
+ <target name="069" active="1" />
+ <s-distance to="069" val="22.569000" to_dh="1.460" active="1" />
+ <direction to="069" val="-178.7342592593" active="1" />
+ <z-angle to="069" val="99.7058641975" to_dh="1.460" active="1" />
+ <target name="070" active="1" />
+ <s-distance to="070" val="29.139000" to_dh="1.460" active="1" />
+ <direction to="070" val="-179.9870370370" active="1" />
+ <z-angle to="070" val="99.4882716049" to_dh="1.460" active="1" />
+ <target name="071" active="1" />
+ <s-distance to="071" val="31.536000" to_dh="1.460" active="1" />
+ <direction to="071" val="-176.8046296296" active="1" />
+ <z-angle to="071" val="99.5712962963" to_dh="1.460" active="1" />
+ <target name="072" active="1" />
+ <s-distance to="072" val="22.834000" to_dh="1.460" active="1" />
+ <direction to="072" val="-177.0845679012" active="1" />
+ <z-angle to="072" val="98.9163580247" to_dh="1.460" active="1" />
+ <target name="073" active="1" />
+ <s-distance to="073" val="20.046000" to_dh="0.000" active="1" />
+ <direction to="073" val="-166.4160493827" active="1" />
+ <z-angle to="073" val="94.5003086420" to_dh="0.000" active="1" />
+ <target name="074" active="1" />
+ <s-distance to="074" val="19.811000" to_dh="0.000" active="1" />
+ <direction to="074" val="-169.6141975309" active="1" />
+ <z-angle to="074" val="93.9959876543" to_dh="0.000" active="1" />
+ <target name="075" active="1" />
+ <s-distance to="075" val="13.786000" to_dh="0.000" active="1" />
+ <direction to="075" val="-148.2753086420" active="1" />
+ <z-angle to="075" val="92.7348765432" to_dh="0.000" active="1" />
+ <target name="076" active="1" />
+ <s-distance to="076" val="12.422000" to_dh="0.000" active="1" />
+ <direction to="076" val="-148.2802469136" active="1" />
+ <z-angle to="076" val="90.5780864198" to_dh="0.000" active="1" />
+ <target name="077" active="1" />
+ <s-distance to="077" val="10.557000" to_dh="0.000" active="1" />
+ <direction to="077" val="-121.7682098765" active="1" />
+ <z-angle to="077" val="90.4533950617" to_dh="0.000" active="1" />
+ <target name="078" active="1" />
+ <s-distance to="078" val="9.560000" to_dh="0.000" active="1" />
+ <direction to="078" val="-122.0314814815" active="1" />
+ <z-angle to="078" val="87.6882716049" to_dh="0.000" active="1" />
+ <target name="079" active="1" />
+ <s-distance to="079" val="8.983000" to_dh="0.000" active="1" />
+ <direction to="079" val="-102.9095679012" active="1" />
+ <z-angle to="079" val="86.9824074074" to_dh="0.000" active="1" />
+ <target name="080" active="1" />
+ <s-distance to="080" val="19.476000" to_dh="0.000" active="1" />
+ <direction to="080" val="-98.8771604938" active="1" />
+ <z-angle to="080" val="94.3435185185" to_dh="0.000" active="1" />
+ <target name="081" active="1" />
+ <s-distance to="081" val="19.950000" to_dh="0.000" active="1" />
+ <direction to="081" val="-98.9530864198" active="1" />
+ <z-angle to="081" val="94.5117283951" to_dh="0.000" active="1" />
+ <target name="082" active="1" />
+ <s-distance to="082" val="15.649000" to_dh="1.460" active="1" />
+ <direction to="082" val="-46.4049382716" active="1" />
+ <z-angle to="082" val="99.4416666667" to_dh="1.460" active="1" />
+ <target name="083" active="1" />
+ <s-distance to="083" val="16.585000" to_dh="1.460" active="1" />
+ <direction to="083" val="-47.8919753086" active="1" />
+ <z-angle to="083" val="99.5253086420" to_dh="1.460" active="1" />
+ <target name="084" active="1" />
+ <s-distance to="084" val="14.789000" to_dh="0.000" active="1" />
+ <direction to="084" val="-60.5962962963" active="1" />
+ <z-angle to="084" val="93.0246913580" to_dh="0.000" active="1" />
+ <target name="085" active="1" />
+ <s-distance to="085" val="21.756000" to_dh="0.000" active="1" />
+ <direction to="085" val="-39.5777777778" active="1" />
+ <z-angle to="085" val="94.8938271605" to_dh="0.000" active="1" />
+</obs>
+<obs from="T003" from_dh="1.523" active="1" >
+ <target name="T002" active="1" />
+ <s-distance to="T002" val="89.640000" to_dh="1.460" active="1" />
+ <direction to="T002" val="72.0546296296" active="1" />
+ <z-angle to="T002" val="100.6237654321" to_dh="1.460" active="1" />
+ <s-distance to="T002" val="89.632000" to_dh="1.460" active="1" />
+ <direction to="T002" val="72.0570987654" active="1" />
+ <z-angle to="T002" val="100.6206790123" to_dh="1.460" active="1" />
+ <target name="T004" active="1" />
+ <s-distance to="T004" val="44.088000" to_dh="1.460" active="1" />
+ <direction to="T004" val="-138.3925925926" active="1" />
+ <z-angle to="T004" val="99.5916666667" to_dh="1.460" active="1" />
+ <s-distance to="T004" val="44.083000" to_dh="1.460" active="1" />
+ <direction to="T004" val="-138.3895061728" active="1" />
+ <z-angle to="T004" val="99.5901234568" to_dh="1.460" active="1" />
+</obs>
+<obs from="T004" from_dh="1.568" active="1" >
+ <target name="T003" active="1" />
+ <s-distance to="T003" val="44.087000" to_dh="1.460" active="1" />
+ <direction to="T003" val="-132.9367283951" active="1" />
+ <z-angle to="T003" val="100.6521604938" to_dh="1.460" active="1" />
+ <s-distance to="T003" val="44.084000" to_dh="1.460" active="1" />
+ <direction to="T003" val="-132.9293209877" active="1" />
+ <z-angle to="T003" val="100.6481481481" to_dh="1.460" active="1" />
+ <target name="PP3000" active="1" />
+ <s-distance to="PP3000" val="64.572000" to_dh="1.460" active="1" />
+ <direction to="PP3000" val="58.8385802469" active="1" />
+ <z-angle to="PP3000" val="99.9543209877" to_dh="1.460" active="1" />
+ <s-distance to="PP3000" val="64.581000" to_dh="1.460" active="1" />
+ <direction to="PP3000" val="58.8398148148" active="1" />
+ <z-angle to="PP3000" val="99.9496913580" to_dh="1.460" active="1" />
+ <s-distance to="PP3000" val="64.577000" to_dh="1.460" active="1" />
+ <direction to="PP3000" val="58.8351851852" active="1" />
+ <z-angle to="PP3000" val="99.9537037037" to_dh="1.460" active="1" />
+</obs>
+<obs from="PP3000" from_dh="1.793" active="1" >
+ <target name="T004" active="1" />
+ <s-distance to="T004" val="64.573000" to_dh="1.460" active="1" />
+ <direction to="T004" val="-181.9756172840" active="1" />
+ <z-angle to="T004" val="100.4790123457" to_dh="1.460" active="1" />
+ <s-distance to="T004" val="64.579000" to_dh="1.460" active="1" />
+ <direction to="T004" val="-181.9731481481" active="1" />
+ <z-angle to="T004" val="100.4756172840" to_dh="1.460" active="1" />
+ <target name="PP" active="1" />
+ <s-distance to="PP" val="293.099000" to_dh="2.610" active="1" />
+ <direction to="PP" val="14.5358024691" active="1" />
+ <z-angle to="PP" val="99.5120370370" to_dh="2.610" active="1" />
+ <s-distance to="PP" val="293.102000" to_dh="2.610" active="1" />
+ <direction to="PP" val="14.5410493827" active="1" />
+ <z-angle to="PP" val="99.5095679012" to_dh="2.610" active="1" />
+</obs>
+</points-observations>
+</network>
+</gama-local>

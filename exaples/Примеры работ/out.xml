@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE gama-local SYSTEM "gama-local.dtd">
+<gama-local version="2.0">
+<network axes-xy="ne">
+<description></description>
+</description>
+<parameters
+  sigma-apr="10"
+  conf-pr="0.95"
+  tol-abs="1000"
+  sigma-act="aposteriori"
+/>
+<points-observations
+distance-stdev="5.0"
+direction-stdev="10.0"
+angle-stdev="10.0"
+zenith-angle-stdev="10.0"
+>
+<point id="N1/>
+<point id="T50/>
+<point id="N2/>
+<point id="N3/>
+<point id="T41/>
+<point id="N4/>
+<point id="1/>
+<point id="2/>
+<point id="3/>
+<point id="4/>
+<point id="5/>
+<point id="6/>
+<point id="7/>
+<point id="8/>
+<point id="9/>
+<point id="10/>
+<point id="11/>
+<point id="12/>
+<point id="13/>
+<point id="14/>
+<point id="15/>
+<point id="16/>
+<point id="17/>
+<point id="18/>
+<point id="19/>
+<point id="20/>
+<point id="21/>
+<point id="22/>
+<point id="23/>
+<point id="24/>
+<point id="25/>
+<point id="26/>
+<point id="27/>
+<point id="28/>
+<point id="29/>
+<point id="30/>
+<point id="31/>
+<point id="32/>
+<point id="33/>
+<point id="34/>
+<point id="35/>
+<point id="36/>
+<point id="37/>
+<point id="N5/>
+<point id="N6/>
+<point id="38/>
+<point id="39/>
+<point id="40/>
+<point id="41/>
+<point id="42/>
+<point id="43/>
+<point id="44/>
+<point id="45/>
+<point id="46/>

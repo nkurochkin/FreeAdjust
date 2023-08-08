@@ -1,0 +1,24 @@
+For M5|Adr 00001|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00025|PI1           A            T040|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00026|TI  INPUT                      |th          1.460 m   |ih          1.373 m   |                      | 
+For M5|Adr 00027|PI1                        T037|SD        318.840 m   |Hz       151.2459 DMS |V1        88.0334 DMS | 
+For M5|Adr 00028|PI1                        T037|SD        318.844 m   |Hz       331.2519 DMS |V1       271.5643 DMS | 
+For M5|Adr 00029|PI1                      PP0691|SD         11.280 m   |Hz       299.0100 DMS |V1        92.2352 DMS | 
+For M5|Adr 00030|PI1                      PP0691|SD         11.283 m   |Hz       119.0002 DMS |V1       267.3705 DMS | 
+For M5|Adr 00031|PI1                      PP0691|SD         11.282 m   |Hz       298.5925 DMS |V1        92.2323 DMS | 
+For M5|Adr 00032|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00033|TI                             |04             42     |                      |                      | 
+For M5|Adr 00034|TI                             |05              1     |06              2     |                      | 
+For M5|Adr 00035|TI                             |20              1     |21             11     |22             16     | 
+For M5|Adr 00036|TI                             |th          1.460 m   |ih          1.373 m   |                      | 
+For M5|Adr 00037|TI                             |i          0.0001 DMS |c         -0.0001 DMS |SZ         0.0002 DMS | 
+For M5|Adr 00038|TI                             |                      |                      |SK        -0.0003 DMS | 
+For M5|Adr 00039|TI                             |T_             20 C   |P             760 mmHg|PC         -0.030 m   | 
+For M5|Adr 00040|TI  END                        |m        1.000000     |                      |                      | 
+For M5|Adr 00041|PI1           A          PP0691|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00042|TI  INPUT                      |th          1.460 m   |ih          1.922 m   |                      | 
+For M5|Adr 00043|PI1                        T037|SD        328.414 m   |Hz       291.1338 DMS |V1        88.0700 DMS | 
+For M5|Adr 00044|PI1                        T037|SD        328.409 m   |Hz       111.1410 DMS |V1       271.5330 DMS | 
+For M5|Adr 00045|PI1                        T040|SD         11.282 m   |Hz       259.5044 DMS |V1        89.2924 DMS | 
+For M5|Adr 00046|PI1                        T040|SD         11.281 m   |Hz        79.5057 DMS |V1       270.3058 DMS | 
+END

@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<!DOCTYPE gama-local SYSTEM "gama-local.dtd">
+<gama-local version="2.0">
+<network axes-xy="ne">
+<description>
+</description>
+<parameters
+  sigma-apr="10"
+  conf-pr="0.95"
+  tol-abs="100"
+  sigma-act="aposteriori"
+/>
+<points-observations
+distance-stdev="2.0"
+direction-stdev="5.0"
+angle-stdev="10.0"
+zenith-angle-stdev="10.0"
+>
+<point id="A" adj="xyz"/>
+<point id="RTR" x="427132.195" y="1310120.767" fix="xy" adj="xyz"/>
+<point id="PP" x="425026.129" y="1309189.065" z="36.650" fix="xyz" adj="xyz"/>
+<point id="B" adj="xyz"/>
+<point id="C" adj="xyz"/>
+<point id="1" adj="xyz"/>
+<point id="2" adj="xyz"/>
+<point id="3" adj="xyz"/>
+<point id="4" adj="xyz"/>
+<point id="5" adj="xyz"/>
+<point id="6" adj="xyz"/>
+<point id="7" adj="xyz"/>
+<point id="8" adj="xyz"/>
+<point id="9" adj="xyz"/>
+<point id="10" adj="xyz"/>
+<point id="11" adj="xyz"/>
+<point id="12" adj="xyz"/>
+<point id="13" adj="xyz"/>
+<point id="14" adj="xyz"/>
+<point id="15" adj="xyz"/>
+<point id="16" adj="xyz"/>
+<point id="17" adj="xyz"/>
+<point id="18" adj="xyz"/>
+<point id="19" adj="xyz"/>
+<point id="20" adj="xyz"/>
+<point id="21" adj="xyz"/>
+<point id="22" adj="xyz"/>
+<point id="23" adj="xyz"/>
+<point id="24" adj="xyz"/>
+<point id="25" adj="xyz"/>
+<point id="26" adj="xyz"/>
+<point id="27" adj="xyz"/>
+<point id="28" adj="xyz"/>
+<point id="29" adj="xyz"/>
+<point id="30" adj="xyz"/>
+<point id="31" adj="xyz"/>
+<point id="32" adj="xyz"/>
+<point id="33" adj="xyz"/>
+<point id="34" adj="xyz"/>
+<point id="35" adj="xyz"/>
+<point id="36" adj="xyz"/>
+<point id="37" adj="xyz"/>
+<point id="38" adj="xyz"/>
+<point id="39" adj="xyz"/>
+<point id="40" adj="xyz"/>
+<obs from="A" from_dh="1.700" active="1" >
+ <target name="RTR" active="1" />
+ <direction to="RTR" val="0.0003086420" active="1" />
+ <z-angle to="RTR" val="85.0009259259" to_dh="1.460" active="0" />
+ <target name="PP" active="1" />
+ <s-distance to="PP" val="522.287000" to_dh="1.460" active="1" />
+ <direction to="PP" val="87.0379629630" active="1" />
+ <z-angle to="PP" val="99.1148148148" to_dh="1.460" active="1" />
+ <target name="B" active="1" />
+ <s-distance to="B" val="21.329000" to_dh="1.460" active="1" />
+ <direction to="B" val="293.3123456790" active="1" />
+ <z-angle to="B" val="101.3530864198" to_dh="1.460" active="1" />
+ <target name="C" active="1" />
+ <s-distance to="C" val="31.677000" to_dh="2.000" active="1" />
+ <direction to="C" val="249.0484567901" active="1" />
+ <z-angle to="C" val="104.0117283951" to_dh="2.000" active="1" />
+ <target name="1" active="1" />
+ <s-distance to="1" val="6.675000" to_dh="2.600" active="1" />
+ <direction to="1" val="282.0703703704" active="1" />
+ <z-angle to="1" val="109.2388888889" to_dh="2.600" active="1" />
+ <target name="2" active="1" />
+ <s-distance to="2" val="10.987000" to_dh="2.600" active="1" />
+ <direction to="2" val="237.3938271605" active="1" />
+ <z-angle to="2" val="108.7129629630" to_dh="2.600" active="1" />
+ <target name="3" active="1" />
+ <s-distance to="3" val="19.754000" to_dh="2.600" active="1" />
+ <direction to="3" val="221.2716049383" active="1" />
+ <z-angle to="3" val="104.3209876543" to_dh="2.600" active="1" />
+ <target name="4" active="1" />
+ <s-distance to="4" val="26.860000" to_dh="2.600" active="1" />
+ <direction to="4" val="223.1586419753" active="1" />
+ <z-angle to="4" val="105.3364197531" to_dh="2.600" active="1" />
+ <target name="5" active="1" />
+ <s-distance to="5" val="22.154000" to_dh="2.600" active="1" />
+ <direction to="5" val="218.5009259259" active="1" />
+ <z-angle to="5" val="108.2432098765" to_dh="2.600" active="1" />
+</obs>
+<obs from="B" from_dh="1.698" active="1" >
+ <target name="RTR" active="1" />
+ <direction to="RTR" val="399.9993827160" active="1" />
+ <z-angle to="RTR" val="85.0095679012" to_dh="2.600" active="0" />
+ <target name="A" active="1" />
+ <s-distance to="A" val="21.333000" to_dh="1.460" active="1" />
+ <direction to="A" val="92.7432098765" active="1" />
+ <z-angle to="A" val="100.0410493827" to_dh="1.460" active="1" />
+ <target name="6" active="1" />
+ <s-distance to="6" val="12.270000" to_dh="1.460" active="1" />
+ <direction to="6" val="255.4783950617" active="1" />
+ <z-angle to="6" val="110.6521604938" to_dh="1.460" active="1" />
+ <target name="7" active="1" />
+ <s-distance to="7" val="2.966000" to_dh="1.460" active="1" />
+ <direction to="7" val="274.9617283951" active="1" />
+ <z-angle to="7" val="122.6061728395" to_dh="1.460" active="1" />
+ <target name="8" active="1" />
+ <s-distance to="8" val="8.205000" to_dh="1.460" active="1" />
+ <direction to="8" val="291.1888888889" active="1" />
+ <z-angle to="8" val="109.9015432099" to_dh="1.460" active="1" />
+ <target name="9" active="1" />
+ <s-distance to="9" val="10.830000" to_dh="1.460" active="1" />
+ <direction to="9" val="288.3824074074" active="1" />
+ <z-angle to="9" val="111.5830246914" to_dh="1.460" active="1" />
+ <target name="10" active="1" />
+ <s-distance to="10" val="12.382000" to_dh="1.460" active="1" />
+ <direction to="10" val="288.8712962963" active="1" />
+ <z-angle to="10" val="109.8376543210" to_dh="1.460" active="1" />
+ <target name="11" active="1" />
+ <s-distance to="11" val="14.291000" to_dh="1.460" active="1" />
+ <direction to="11" val="254.9521604938" active="1" />
+ <z-angle to="11" val="109.1929012346" to_dh="1.460" active="1" />
+ <target name="12" active="1" />
+ <s-distance to="12" val="13.233000" to_dh="1.460" active="1" />
+ <direction to="12" val="248.6771604938" active="1" />
+ <z-angle to="12" val="108.1228395062" to_dh="1.460" active="1" />
+ <target name="13" active="1" />
+ <s-distance to="13" val="8.651000" to_dh="1.460" active="1" />
+ <direction to="13" val="248.1410493827" active="1" />
+ <z-angle to="13" val="112.7558641975" to_dh="1.460" active="1" />
+ <target name="14" active="1" />
+ <s-distance to="14" val="6.947000" to_dh="1.460" active="1" />
+ <direction to="14" val="183.3904320988" active="1" />
+ <z-angle to="14" val="119.6851851852" to_dh="1.460" active="1" />
+ <target name="15" active="1" />
+ <s-distance to="15" val="21.339000" to_dh="1.460" active="1" />
+ <direction to="15" val="293.0243827160" active="1" />
+ <z-angle to="15" val="105.2873456790" to_dh="1.460" active="1" />
+ <target name="16" active="1" />
+ <s-distance to="16" val="24.036000" to_dh="1.460" active="1" />
+ <direction to="16" val="298.8086419753" active="1" />
+ <z-angle to="16" val="105.2879629630" to_dh="1.460" active="1" />
+ <target name="17" active="1" />
+ <s-distance to="17" val="27.330000" to_dh="1.460" active="1" />
+ <direction to="17" val="331.8385802469" active="1" />
+ <z-angle to="17" val="104.7172839506" to_dh="1.460" active="1" />
+ <target name="18" active="1" />
+ <s-distance to="18" val="14.833000" to_dh="1.460" active="1" />
+ <direction to="18" val="397.5635802469" active="1" />
+ <z-angle to="18" val="107.5145061728" to_dh="1.460" active="1" />
+ <target name="19" active="1" />
+ <s-distance to="19" val="19.919000" to_dh="1.460" active="1" />
+ <direction to="19" val="12.3728395062" active="1" />
+ <z-angle to="19" val="105.6638888889" to_dh="1.460" active="1" />
+ <target name="20" active="1" />
+ <s-distance to="20" val="16.925000" to_dh="1.460" active="1" />
+ <direction to="20" val="10.8095679012" active="1" />
+ <z-angle to="20" val="106.6030864198" to_dh="1.460" active="1" />
+ <target name="21" active="1" />
+ <s-distance to="21" val="22.708000" to_dh="1.460" active="1" />
+ <direction to="21" val="49.3354938272" active="1" />
+ <z-angle to="21" val="104.3916666667" to_dh="1.460" active="1" />
+ <target name="22" active="1" />
+ <s-distance to="22" val="22.261000" to_dh="1.460" active="1" />
+ <direction to="22" val="33.8469135802" active="1" />
+ <z-angle to="22" val="105.0274691358" to_dh="1.460" active="1" />
+ <target name="23" active="1" />
+ <s-distance to="23" val="25.368000" to_dh="1.460" active="1" />
+ <direction to="23" val="28.1873456790" active="1" />
+ <z-angle to="23" val="104.3895061728" to_dh="1.460" active="1" />
+ <target name="24" active="1" />
+ <s-distance to="24" val="21.507000" to_dh="1.460" active="1" />
+ <direction to="24" val="89.7799382716" active="1" />
+ <z-angle to="24" val="104.3848765432" to_dh="1.460" active="1" />
+ <target name="25" active="1" />
+ <s-distance to="25" val="20.119000" to_dh="1.460" active="1" />
+ <direction to="25" val="94.7287037037" active="1" />
+ <z-angle to="25" val="104.5391975309" to_dh="1.460" active="1" />
+ <target name="26" active="1" />
+ <s-distance to="26" val="16.743000" to_dh="1.460" active="1" />
+ <direction to="26" val="96.7077160494" active="1" />
+ <z-angle to="26" val="106.1836419753" to_dh="1.460" active="1" />
+ <target name="27" active="1" />
+ <s-distance to="27" val="18.359000" to_dh="1.460" active="1" />
+ <direction to="27" val="96.6722222222" active="1" />
+ <z-angle to="27" val="105.7259259259" to_dh="1.460" active="1" />
+ <target name="28" active="1" />
+ <s-distance to="28" val="17.797000" to_dh="1.460" active="1" />
+ <direction to="28" val="114.1169753086" active="1" />
+ <z-angle to="28" val="107.7901234568" to_dh="1.460" active="1" />
+</obs>
+<obs from="C" from_dh="1.603" active="1" >
+ <target name="A" active="1" />
+ <distance to="A" val="31.6210" to_dh="2.600" />
+ <direction to="A" val="0.0018518519" active="1" />
+ <dh to="A" val="4.2990" to_dh="2.600" />
+ <target name="29" active="1" />
+ <distance to="29" val="8.6570" to_dh="2.400" />
+ <direction to="29" val="68.4179012346" active="1" />
+ <dh to="29" val="1.4560" to_dh="2.400" />
+ <target name="30" active="1" />
+ <distance to="30" val="8.6640" to_dh="2.400" />
+ <direction to="30" val="68.3459876543" active="1" />
+ <dh to="30" val="1.4560" to_dh="2.400" />
+ <target name="31" active="1" />
+ <distance to="31" val="8.5370" to_dh="2.400" />
+ <direction to="31" val="70.0604938272" active="1" />
+ <dh to="31" val="1.3110" to_dh="2.400" />
+ <target name="32" active="1" />
+ <distance to="32" val="9.0710" to_dh="2.400" />
+ <direction to="32" val="252.7762345679" active="1" />
+ <dh to="32" val="0.9350" to_dh="2.400" />
+ <target name="33" active="1" />
+ <distance to="33" val="9.5360" to_dh="2.400" />
+ <direction to="33" val="287.3555555556" active="1" />
+ <dh to="33" val="0.2130" to_dh="2.400" />
+ <target name="34" active="1" />
+ <distance to="34" val="13.0350" to_dh="2.400" />
+ <direction to="34" val="291.8950617284" active="1" />
+ <dh to="34" val="0.5750" to_dh="2.400" />
+ <target name="35" active="1" />
+ <distance to="35" val="10.7700" to_dh="2.400" />
+ <direction to="35" val="299.4657407407" active="1" />
+ <dh to="35" val="0.6640" to_dh="2.400" />
+ <target name="36" active="1" />
+ <distance to="36" val="12.2210" to_dh="2.400" />
+ <direction to="36" val="287.8379629630" active="1" />
+ <dh to="36" val="-0.3850" to_dh="2.400" />
+ <target name="37" active="1" />
+ <distance to="37" val="13.5730" to_dh="2.400" />
+ <direction to="37" val="289.1675925926" active="1" />
+ <dh to="37" val="-0.0030" to_dh="2.400" />
+ <target name="38" active="1" />
+ <distance to="38" val="4.5670" to_dh="2.400" />
+ <direction to="38" val="312.7879629630" active="1" />
+ <dh to="38" val="0.5300" to_dh="2.400" />
+ <target name="39" active="1" />
+ <distance to="39" val="6.7740" to_dh="2.400" />
+ <direction to="39" val="290.9518518519" active="1" />
+ <dh to="39" val="0.3990" to_dh="2.400" />
+ <target name="40" active="1" />
+ <distance to="40" val="4.1240" to_dh="2.400" />
+ <direction to="40" val="383.7046296296" active="1" />
+ <dh to="40" val="0.1180" to_dh="2.400" />
+</obs>
+</points-observations>
+</network>
+</gama-local>

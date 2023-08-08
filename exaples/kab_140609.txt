@@ -1,0 +1,261 @@
+For M5|Adr 00001|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00002|TI                             |04             42     |                      |                      | 
+For M5|Adr 00003|TI                             |05              1     |06              2     |                      | 
+For M5|Adr 00004|TI                             |20              1     |21             11     |22             16     | 
+For M5|Adr 00005|TI                             |th          1.460 m   |ih          0.000 m   |                      | 
+For M5|Adr 00006|TI                             |i          0.0001 DMS |c         -0.0001 DMS |SZ         0.0002 DMS | 
+For M5|Adr 00007|TI                             |                      |                      |SK        -0.0003 DMS | 
+For M5|Adr 00008|TI                             |T_             20 C   |P             760 mmHg|PC         -0.030 m   | 
+For M5|Adr 00009|TI  END                        |m        1.000000     |                      |                      | 
+For M5|Adr 00010|PI1           A            T001|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00011|TI  INPUT                      |th          1.460 m   |ih          1.523 m   |                      | 
+For M5|Adr 00012|PI1                        R001|SD         70.068 m   |Hz       300.0449 DMS |V1        81.4318 DMS | 
+For M5|Adr 00013|PI1                        R001|SD         70.064 m   |Hz       120.0518 DMS |V1       278.1657 DMS | 
+For M5|Adr 00014|PI1                        R001|SD         70.066 m   |Hz       300.0436 DMS |V1        81.4310 DMS | 
+For M5|Adr 00015|PI1                        T002|SD         16.704 m   |Hz       176.4617 DMS |V1        93.5806 DMS | 
+For M5|Adr 00016|PI1                        T002|SD         16.706 m   |Hz       356.4726 DMS |V1       266.0209 DMS | 
+For M5|Adr 00017|PI1                        T003|SD         16.834 m   |Hz       204.1116 DMS |V1        92.2914 DMS | 
+For M5|Adr 00018|PI1                        T003|SD         16.832 m   |Hz        24.1306 DMS |V1       267.3116 DMS | 
+For M5|Adr 00019|PI1                        MACH|                      |Hz       310.4737 DMS |V1        78.5034 DMS | 
+For M5|Adr 00020|PI1                         001|SD         14.575 m   |Hz       172.2115 DMS |V1        93.5710 DMS | 
+For M5|Adr 00021|PI1                         002|SD         13.809 m   |Hz       158.1201 DMS |V1        92.1334 DMS | 
+For M5|Adr 00022|PI1                         003|SD         14.956 m   |Hz       167.1436 DMS |V1        94.1444 DMS | 
+For M5|Adr 00023|PI1                         004|SD         15.132 m   |Hz       150.5818 DMS |V1        92.4022 DMS | 
+For M5|Adr 00024|PI1                         005|SD         13.901 m   |Hz       148.2804 DMS |V1        93.5709 DMS | 
+For M5|Adr 00025|PI1                         006|SD         15.120 m   |Hz       148.0758 DMS |V1        94.1631 DMS | 
+For M5|Adr 00026|PI1                         007|SD         17.446 m   |Hz       174.4144 DMS |V1        93.5916 DMS | 
+For M5|Adr 00027|PI1                         008|SD         17.346 m   |Hz       178.3319 DMS |V1        93.5137 DMS | 
+For M5|Adr 00028|PI1                         009|SD         11.428 m   |Hz       166.5142 DMS |V1        94.4039 DMS | 
+For M5|Adr 00029|PI1                         010|SD         10.610 m   |Hz       188.2340 DMS |V1        94.2139 DMS | 
+For M5|Adr 00030|PI1                         011|SD          9.247 m   |Hz       206.4310 DMS |V1        94.2406 DMS | 
+For M5|Adr 00031|PI1                         012|SD          8.138 m   |Hz       126.0506 DMS |V1        85.3719 DMS | 
+For M5|Adr 00032|PI1                         013|SD          7.992 m   |Hz       106.4435 DMS |V1        90.0551 DMS | 
+For M5|Adr 00033|PI1                         014|SD          7.705 m   |Hz        93.0331 DMS |V1        91.2359 DMS | 
+For M5|Adr 00034|PI1                         015|SD          4.407 m   |Hz        29.1103 DMS |V1        90.0413 DMS | 
+For M5|Adr 00035|PI1                         016|SD          5.327 m   |Hz       318.1748 DMS |V1        88.5931 DMS | 
+For M5|Adr 00036|PI1                         017|SD          9.411 m   |Hz       286.5306 DMS |V1        90.3516 DMS | 
+For M5|Adr 00037|PI1                         018|SD          8.918 m   |Hz       257.2350 DMS |V1        91.5105 DMS | 
+For M5|Adr 00038|TI  DR                         |th          0.000 m   |PC          0.000 m   |A           0.035 m   | 
+For M5|Adr 00039|PI1                         019|SD         12.579 m   |Hz       250.2847 DMS |V1        89.0216 DMS | 
+For M5|Adr 00040|TI  PR                         |th          1.460 m   |PC         -0.030 m   |A           0.005 m   | 
+For M5|Adr 00041|PI1                         020|SD          9.325 m   |Hz       247.5252 DMS |V1        92.3136 DMS | 
+For M5|Adr 00042|TI  DR                         |th          0.000 m   |PC          0.000 m   |A           0.035 m   | 
+For M5|Adr 00043|PI1                         021|SD          5.506 m   |Hz       149.1138 DMS |V1        86.0020 DMS | 
+For M5|Adr 00044|PI1                         022|SD          4.953 m   |Hz       161.2728 DMS |V1        85.3333 DMS | 
+For M5|Adr 00045|TI  PR                         |th          1.460 m   |PC         -0.030 m   |A           0.005 m   | 
+For M5|Adr 00046|PI1                         023|SD         11.013 m   |Hz       262.4838 DMS |V1        92.2156 DMS | 
+For M5|Adr 00047|PI1                         024|SD         12.421 m   |Hz       285.2257 DMS |V1        90.4412 DMS | 
+For M5|Adr 00048|PI1                         025|SD         18.392 m   |Hz       279.3828 DMS |V1        90.4810 DMS | 
+For M5|Adr 00049|PI1                         026|SD         21.121 m   |Hz       282.5945 DMS |V1        90.0905 DMS | 
+For M5|Adr 00050|PI1                         027|SD         21.820 m   |Hz       281.4747 DMS |V1        89.2216 DMS | 
+For M5|Adr 00051|PI1                         028|SD         22.203 m   |Hz       282.2220 DMS |V1        88.2226 DMS | 
+For M5|Adr 00052|PI1                         029|SD         22.441 m   |Hz       290.3418 DMS |V1        89.3216 DMS | 
+For M5|Adr 00053|PI1                         030|SD         17.874 m   |Hz       302.1004 DMS |V1        89.2314 DMS | 
+For M5|Adr 00054|PI1                         031|SD         21.674 m   |Hz       317.0801 DMS |V1        88.1530 DMS | 
+For M5|Adr 00055|PI1                         032|SD         15.846 m   |Hz       321.3527 DMS |V1        88.0440 DMS | 
+For M5|Adr 00056|PI1                         033|SD         18.605 m   |Hz       327.2946 DMS |V1        87.2923 DMS | 
+For M5|Adr 00057|PI1                         034|SD         13.200 m   |Hz       339.4600 DMS |V1        87.1946 DMS | 
+For M5|Adr 00058|PI1                         035|SD          9.013 m   |Hz       329.2549 DMS |V1        87.5843 DMS | 
+For M5|Adr 00059|PI1                         036|SD          9.164 m   |Hz       305.4720 DMS |V1        89.0856 DMS | 
+For M5|Adr 00060|PI1                         037|SD         13.349 m   |Hz       353.2534 DMS |V1        87.0906 DMS | 
+For M5|Adr 00061|PI1                         038|SD         17.105 m   |Hz       354.2912 DMS |V1        85.1002 DMS | 
+For M5|Adr 00062|PI1                         039|SD         18.347 m   |Hz       355.0437 DMS |V1        85.0630 DMS | 
+For M5|Adr 00063|PI1                         040|SD         18.507 m   |Hz       352.1848 DMS |V1        85.0821 DMS | 
+For M5|Adr 00064|PI1                        T004|SD          7.430 m   |Hz       352.0309 DMS |V1        87.1448 DMS | 
+For M5|Adr 00065|PI1                        T004|SD          7.441 m   |Hz       172.0225 DMS |V1       272.4515 DMS | 
+For M5|Adr 00066|PI1                         041|SD          4.869 m   |Hz       262.2057 DMS |V1        90.1628 DMS | 
+For M5|Adr 00067|PI1                         042|SD          3.449 m   |Hz       164.4951 DMS |V1        95.4221 DMS | 
+For M5|Adr 00068|PI1                         043|SD          6.362 m   |Hz       218.1259 DMS |V1        94.5254 DMS | 
+For M5|Adr 00069|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00070|TI                             |04             42     |                      |                      | 
+For M5|Adr 00071|TI                             |05              1     |06              2     |                      | 
+For M5|Adr 00072|TI                             |20              1     |21             11     |22             16     | 
+For M5|Adr 00073|TI                             |th          1.460 m   |ih          1.523 m   |                      | 
+For M5|Adr 00074|TI                             |i          0.0001 DMS |c         -0.0001 DMS |SZ         0.0002 DMS | 
+For M5|Adr 00075|TI                             |                      |                      |SK        -0.0003 DMS | 
+For M5|Adr 00076|TI                             |T_             20 C   |P             760 mmHg|PC         -0.030 m   | 
+For M5|Adr 00077|TI  END                        |m        1.000000     |                      |                      | 
+For M5|Adr 00078|PI1           A            T004|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00079|TI  INPUT                      |th          1.460 m   |ih          1.521 m   |                      | 
+For M5|Adr 00080|PI1                        T001|SD          7.444 m   |Hz        53.1418 DMS |V1        93.4146 DMS | 
+For M5|Adr 00081|PI1                        T001|SD          7.441 m   |Hz       233.1450 DMS |V1       266.1823 DMS | 
+For M5|Adr 00082|PI1                         044|SD          8.104 m   |Hz       275.0538 DMS |V1        88.5623 DMS | 
+For M5|Adr 00083|PI1                         045|SD         13.005 m   |Hz       280.5039 DMS |V1        88.1909 DMS | 
+For M5|Adr 00084|PI1                         046|SD          7.781 m   |Hz       293.4004 DMS |V1        90.0321 DMS | 
+For M5|Adr 00085|PI1                         047|SD          9.313 m   |Hz       307.5710 DMS |V1        90.1129 DMS | 
+For M5|Adr 00086|PI1                         048|SD          4.281 m   |Hz       303.2258 DMS |V1        90.4623 DMS | 
+For M5|Adr 00087|PI1                         049|SD          4.550 m   |Hz        14.2300 DMS |V1        94.3726 DMS | 
+For M5|Adr 00088|PI1                         050|SD          7.388 m   |Hz         1.3743 DMS |V1        93.3001 DMS | 
+For M5|Adr 00089|PI1                         051|SD         10.331 m   |Hz         3.0755 DMS |V1        93.1906 DMS | 
+For M5|Adr 00090|PI1                         052|SD          8.075 m   |Hz        22.3643 DMS |V1        94.1239 DMS | 
+For M5|Adr 00091|TI  DR                         |th          0.000 m   |PC          0.000 m   |A           0.035 m   | 
+For M5|Adr 00092|PI1                         053|SD         13.458 m   |Hz        91.2102 DMS |V1        90.1446 DMS | 
+For M5|Adr 00093|PI1                         054|SD         14.068 m   |Hz        88.0132 DMS |V1        91.5510 DMS | 
+For M5|Adr 00094|PI1                         055|SD         20.909 m   |Hz       152.5857 DMS |V1        87.5812 DMS | 
+For M5|Adr 00095|PI1                         056|SD         21.716 m   |Hz       165.0156 DMS |V1        86.1256 DMS | 
+For M5|Adr 00096|PI1                         057|SD         21.592 m   |Hz       165.0433 DMS |V1        85.3219 DMS | 
+For M5|Adr 00097|PI1                         058|SD         22.191 m   |Hz       168.1237 DMS |V1        87.2748 DMS | 
+For M5|Adr 00098|PI1                         059|SD         22.611 m   |Hz       170.2538 DMS |V1        86.5359 DMS | 
+For M5|Adr 00099|PI1                         060|SD         22.943 m   |Hz       171.5809 DMS |V1        86.4730 DMS | 
+For M5|Adr 00100|TI  PR                         |th          1.460 m   |PC         -0.030 m   |A           0.005 m   | 
+For M5|Adr 00101|PI1                         061|SD         19.131 m   |Hz       125.4831 DMS |V1        92.4024 DMS | 
+For M5|Adr 00102|PI1                         062|SD         20.692 m   |Hz       126.3457 DMS |V1        91.3141 DMS | 
+For M5|Adr 00103|PI1                         063|SD         17.456 m   |Hz       121.0932 DMS |V1        93.2026 DMS | 
+For M5|Adr 00104|PI1                         064|SD         12.456 m   |Hz       127.1845 DMS |V1        93.0606 DMS | 
+For M5|Adr 00105|PI1                         065|SD          8.723 m   |Hz       147.0830 DMS |V1        92.1113 DMS | 
+For M5|Adr 00106|PI1                         066|SD          6.218 m   |Hz       263.2835 DMS |V1        88.4755 DMS | 
+For M5|Adr 00107|PI1                         067|SD          6.910 m   |Hz       253.4047 DMS |V1        88.2110 DMS | 
+For M5|Adr 00108|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00109|TI                             |04             42     |                      |                      | 
+For M5|Adr 00110|TI                             |05              1     |06              2     |                      | 
+For M5|Adr 00111|TI                             |20              1     |21             11     |22             16     | 
+For M5|Adr 00112|TI                             |th          1.460 m   |ih          1.521 m   |                      | 
+For M5|Adr 00113|TI                             |i          0.0001 DMS |c         -0.0001 DMS |SZ         0.0002 DMS | 
+For M5|Adr 00114|TI                             |                      |                      |SK        -0.0003 DMS | 
+For M5|Adr 00115|TI                             |T_             20 C   |P             760 mmHg|PC         -0.030 m   | 
+For M5|Adr 00116|TI  END                        |m        1.000000     |                      |                      | 
+For M5|Adr 00117|PI1           A            T002|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00118|TI  INPUT                      |th          1.460 m   |ih          1.558 m   |                      | 
+For M5|Adr 00119|PI1                        T001|SD         16.699 m   |Hz       142.2541 DMS |V1        86.3458 DMS | 
+For M5|Adr 00120|PI1                        T001|SD         16.704 m   |Hz       322.2614 DMS |V1       273.2518 DMS | 
+For M5|Adr 00121|PI1                        T003|SD          7.954 m   |Hz        65.0252 DMS |V1        87.3539 DMS | 
+For M5|Adr 00122|PI1                        T003|SD          7.947 m   |Hz       245.0614 DMS |V1       272.2430 DMS | 
+For M5|Adr 00123|PI1                         068|SD         10.538 m   |Hz        62.1347 DMS |V1        89.2625 DMS | 
+For M5|Adr 00124|PI1                         069|SD          7.267 m   |Hz        62.0406 DMS |V1        87.4457 DMS | 
+For M5|Adr 00125|PI1                         070|SD          6.643 m   |Hz        63.3716 DMS |V1        90.2809 DMS | 
+For M5|Adr 00126|PI1                         071|SD          3.649 m   |Hz       105.3114 DMS |V1        88.5754 DMS | 
+For M5|Adr 00127|PI1                         072|SD          2.236 m   |Hz       312.4621 DMS |V1        94.1039 DMS | 
+For M5|Adr 00128|PI1                         073|SD          3.365 m   |Hz       340.3930 DMS |V1        95.0545 DMS | 
+For M5|Adr 00129|PI1                         074|SD          9.089 m   |Hz       340.4741 DMS |V1        92.5315 DMS | 
+For M5|Adr 00130|PI1                         075|SD         10.109 m   |Hz       331.3255 DMS |V1        93.2305 DMS | 
+For M5|Adr 00131|PI1                         076|SD         11.490 m   |Hz       339.4417 DMS |V1        93.0736 DMS | 
+For M5|Adr 00132|PI1                        T005|SD         21.381 m   |Hz       336.3330 DMS |V1        93.4536 DMS | 
+For M5|Adr 00133|PI1                        T005|SD         21.381 m   |Hz       156.3339 DMS |V1       266.1437 DMS | 
+For M5|Adr 00134|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00135|TI                             |04             42     |                      |                      | 
+For M5|Adr 00136|TI                             |05              1     |06              2     |                      | 
+For M5|Adr 00137|TI                             |20              1     |21             11     |22             16     | 
+For M5|Adr 00138|TI                             |th          1.460 m   |ih          1.558 m   |                      | 
+For M5|Adr 00139|TI                             |i          0.0001 DMS |c         -0.0001 DMS |SZ         0.0002 DMS | 
+For M5|Adr 00140|TI                             |                      |                      |SK        -0.0003 DMS | 
+For M5|Adr 00141|TI                             |T_             20 C   |P             760 mmHg|PC         -0.030 m   | 
+For M5|Adr 00142|TI  END                        |m        1.000000     |                      |                      | 
+For M5|Adr 00143|PI1           A            T005|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00144|TI  INPUT                      |th          1.460 m   |ih          1.608 m   |                      | 
+For M5|Adr 00145|PI1                        T002|SD         21.365 m   |Hz       349.5717 DMS |V1        86.5323 DMS | 
+For M5|Adr 00146|PI1                        T002|SD         21.367 m   |Hz       169.5725 DMS |V1       273.0653 DMS | 
+For M5|Adr 00147|PI1                         080|SD         12.746 m   |Hz        30.1139 DMS |V1        86.5843 DMS | 
+For M5|Adr 00148|PI1                         081|SD         12.583 m   |Hz        41.3330 DMS |V1        90.0830 DMS | 
+For M5|Adr 00149|PI1                         082|SD          9.789 m   |Hz        29.2150 DMS |V1        87.1402 DMS | 
+For M5|Adr 00150|PI1                         083|SD          9.188 m   |Hz         7.2538 DMS |V1        85.5741 DMS | 
+For M5|Adr 00151|PI1                         084|SD          7.203 m   |Hz       351.5722 DMS |V1        86.5557 DMS | 
+For M5|Adr 00152|PI1                         085|SD          7.167 m   |Hz       345.3530 DMS |V1        86.4432 DMS | 
+For M5|Adr 00153|PI1                         086|SD         11.884 m   |Hz       313.5950 DMS |V1        86.5955 DMS | 
+For M5|Adr 00154|PI1                         087|SD          4.834 m   |Hz       346.2916 DMS |V1        89.0110 DMS | 
+For M5|Adr 00155|PI1                         088|SD          5.018 m   |Hz       359.5554 DMS |V1        89.1657 DMS | 
+For M5|Adr 00156|PI1                         089|SD          4.219 m   |Hz        57.1752 DMS |V1        92.3210 DMS | 
+For M5|Adr 00157|PI1                         090|SD         11.140 m   |Hz        54.2457 DMS |V1        92.0903 DMS | 
+For M5|Adr 00158|PI1                         091|SD         23.558 m   |Hz        58.3332 DMS |V1        91.0044 DMS | 
+For M5|Adr 00159|PI1                         092|SD         34.486 m   |Hz        62.0748 DMS |V1        90.4026 DMS | 
+For M5|Adr 00160|PI1                         093|SD         37.264 m   |Hz        80.2709 DMS |V1        91.2529 DMS | 
+For M5|Adr 00161|PI1                         094|SD         42.367 m   |Hz        78.1425 DMS |V1        91.1830 DMS | 
+For M5|Adr 00162|PI1                         095|SD         38.854 m   |Hz        79.4711 DMS |V1        91.2713 DMS | 
+For M5|Adr 00163|PI1                         096|SD         37.188 m   |Hz        77.3823 DMS |V1        91.2418 DMS | 
+For M5|Adr 00164|PI1                         097|SD         34.004 m   |Hz        76.1800 DMS |V1        91.2021 DMS | 
+For M5|Adr 00165|PI1                         098|SD         34.806 m   |Hz        67.2020 DMS |V1        91.0701 DMS | 
+For M5|Adr 00166|PI1                         099|SD         22.561 m   |Hz        76.5609 DMS |V1        91.2725 DMS | 
+For M5|Adr 00167|PI1                         100|SD         19.625 m   |Hz        70.4938 DMS |V1        91.3209 DMS | 
+For M5|Adr 00168|PI1                         101|SD         12.940 m   |Hz        86.5902 DMS |V1        88.5412 DMS | 
+For M5|Adr 00169|PI1                         102|SD          2.995 m   |Hz       121.0416 DMS |V1        94.2307 DMS | 
+For M5|Adr 00170|PI1                         103|SD          6.949 m   |Hz       250.4602 DMS |V1        89.2232 DMS | 
+For M5|Adr 00171|PI1                         104|SD         12.064 m   |Hz       245.2332 DMS |V1        88.0005 DMS | 
+For M5|Adr 00172|PI1                         105|SD          8.772 m   |Hz       290.2930 DMS |V1        88.4708 DMS | 
+For M5|Adr 00173|PI1                         106|SD         11.249 m   |Hz       295.2546 DMS |V1        88.1828 DMS | 
+For M5|Adr 00174|PI1                         107|SD          8.468 m   |Hz       280.3955 DMS |V1        90.2756 DMS | 
+For M5|Adr 00175|PI1                         108|SD         39.195 m   |Hz       263.0838 DMS |V1        89.2310 DMS | 
+For M5|Adr 00176|PI1                         109|SD         39.218 m   |Hz       263.0603 DMS |V1        89.2309 DMS | 
+For M5|Adr 00177|PI1                         110|SD         40.865 m   |Hz       253.2237 DMS |V1        88.4605 DMS | 
+For M5|Adr 00178|PI1                         111|SD         33.409 m   |Hz       254.3959 DMS |V1        89.2710 DMS | 
+For M5|Adr 00179|PI1                         112|SD         40.651 m   |Hz       265.0601 DMS |V1        89.5956 DMS | 
+For M5|Adr 00180|PI1                         113|SD         52.491 m   |Hz       262.5918 DMS |V1        89.2600 DMS | 
+For M5|Adr 00181|PI1                         114|SD         62.540 m   |Hz       260.5458 DMS |V1        89.1933 DMS | 
+For M5|Adr 00182|PI1                         115|SD         68.930 m   |Hz       261.4204 DMS |V1        89.1813 DMS | 
+For M5|Adr 00183|PI1                         116|SD         18.617 m   |Hz       262.0722 DMS |V1        89.3549 DMS | 
+For M5|Adr 00184|PI1                         117|SD         10.386 m   |Hz       267.1323 DMS |V1        89.4302 DMS | 
+For M5|Adr 00185|PI1                         118|SD          4.268 m   |Hz       287.1033 DMS |V1        91.3013 DMS | 
+For M5|Adr 00186|PI1                         119|SD          9.691 m   |Hz        64.1654 DMS |V1        92.0805 DMS | 
+For M5|Adr 00187|TI  DR                         |th          0.000 m   |PC          0.000 m   |A           0.035 m   | 
+For M5|Adr 00188|PI1                         120|SD         20.045 m   |Hz        47.0823 DMS |V1        86.5923 DMS | 
+For M5|Adr 00189|PI1                         121|SD         16.184 m   |Hz        30.3730 DMS |V1        85.1106 DMS | 
+For M5|Adr 00190|PI1                         122|SD         15.094 m   |Hz        36.0830 DMS |V1        85.1123 DMS | 
+For M5|Adr 00191|PI1                         123|SD          3.687 m   |Hz       128.4933 DMS |V1        81.2836 DMS | 
+For M5|Adr 00192|PI1                         124|SD          8.472 m   |Hz       235.2711 DMS |V1        85.5445 DMS | 
+For M5|Adr 00193|PI1                         125|SD         14.819 m   |Hz       320.2944 DMS |V1        74.3733 DMS | 
+For M5|Adr 00194|PI1                         126|SD          9.948 m   |Hz       346.0318 DMS |V1        85.4316 DMS | 
+For M5|Adr 00195|PI1                         127|SD          8.342 m   |Hz        18.0828 DMS |V1        88.4531 DMS | 
+For M5|Adr 00196|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00197|TI                             |04             42     |                      |                      | 
+For M5|Adr 00198|TI                             |05              1     |06              2     |                      | 
+For M5|Adr 00199|TI                             |20              1     |21             11     |22             16     | 
+For M5|Adr 00200|TI                             |th          1.460 m   |ih          1.608 m   |                      | 
+For M5|Adr 00201|TI                             |i          0.0001 DMS |c         -0.0001 DMS |SZ         0.0002 DMS | 
+For M5|Adr 00202|TI                             |                      |                      |SK        -0.0003 DMS | 
+For M5|Adr 00203|TI                             |T_             20 C   |P             760 mmHg|PC         -0.030 m   | 
+For M5|Adr 00204|TI  END                        |m        1.000000     |                      |                      | 
+For M5|Adr 00205|PI1           A            R001|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00206|TI  INPUT                      |th          1.460 m   |ih          1.519 m   |                      | 
+For M5|Adr 00207|PI1                        T001|SD         70.086 m   |Hz       348.0737 DMS |V1        98.2224 DMS | 
+For M5|Adr 00208|PI1                        T001|SD         70.091 m   |Hz       168.0735 DMS |V1       261.3754 DMS | 
+For M5|Adr 00209|TI  DR                         |th          0.000 m   |PC          0.000 m   |A           0.035 m   | 
+For M5|Adr 00210|PI1                        MACH|SD         15.045 m   |Hz       299.3513 DMS |V1        84.1807 DMS | 
+For M5|Adr 00211|TI  PR                         |th          1.460 m   |PC         -0.030 m   |A           0.005 m   | 
+For M5|Adr 00212|PI1                        T001|SD         70.099 m   |Hz       348.0736 DMS |V1        98.2238 DMS | 
+For M5|Adr 00213|PI1                        T001|SD         70.100 m   |Hz       168.0755 DMS |V1       261.3743 DMS | 
+For M5|Adr 00214|PI1                        L001|                      |Hz       259.0732 DMS |V1        80.4003 DMS | 
+For M5|Adr 00215|PI1                        L002|                      |Hz       268.3933 DMS |V1        80.1246 DMS | 
+For M5|Adr 00216|PI1                        L003|                      |Hz       276.1406 DMS |V1        81.4911 DMS | 
+For M5|Adr 00217|PI1                        L004|                      |Hz       277.3740 DMS |V1        81.0359 DMS | 
+For M5|Adr 00218|PI1                        L005|                      |Hz       283.5158 DMS |V1        82.4025 DMS | 
+For M5|Adr 00219|PI1                        LP01|                      |Hz       270.0456 DMS |V1        80.0947 DMS | 
+For M5|Adr 00220|PI1                        LP02|                      |Hz       281.0030 DMS |V1        81.2628 DMS | 
+For M5|Adr 00221|PI1                        LP03|                      |Hz       285.4402 DMS |V1        80.5810 DMS | 
+For M5|Adr 00222|PI1                        LP04|                      |Hz       292.3241 DMS |V1        81.4701 DMS | 
+For M5|Adr 00223|PI1                        LP05|                      |Hz       300.3455 DMS |V1        84.3448 DMS | 
+For M5|Adr 00224|TI  DR                         |th          0.000 m   |PC          0.000 m   |A           0.035 m   | 
+For M5|Adr 00225|PI1                        ST01|SD         73.277 m   |Hz        29.1038 DMS |V1        95.5233 DMS | 
+For M5|Adr 00226|PI1                        ST02|SD         71.060 m   |Hz        75.4205 DMS |V1        94.4204 DMS | 
+For M5|Adr 00227|TI  PR                         |th          1.460 m   |PC         -0.030 m   |A           0.005 m   | 
+For M5|Adr 00228|PI1                        R002|SD         92.398 m   |Hz       142.3004 DMS |V1        88.5549 DMS | 
+For M5|Adr 00229|PI1                        R002|SD         92.390 m   |Hz       322.3016 DMS |V1       271.0441 DMS | 
+For M5|Adr 00230|PI1                         200|SD         11.842 m   |Hz       318.4617 DMS |V1        92.5350 DMS | 
+For M5|Adr 00231|PI1                         201|SD         20.480 m   |Hz       317.0753 DMS |V1        92.1552 DMS | 
+For M5|Adr 00232|PI1                         202|SD         27.643 m   |Hz       316.3301 DMS |V1        92.1238 DMS | 
+For M5|Adr 00233|PI1                         203|SD         37.134 m   |Hz       317.1505 DMS |V1        91.3347 DMS | 
+For M5|Adr 00234|PI1                         204|SD         44.651 m   |Hz       317.4301 DMS |V1        91.2639 DMS | 
+For M5|Adr 00235|PI1                         205|SD         53.793 m   |Hz       317.0305 DMS |V1        91.0525 DMS | 
+For M5|Adr 00236|PI1                         206|SD         62.424 m   |Hz       317.3834 DMS |V1        91.1309 DMS | 
+For M5|Adr 00237|PI1                         207|SD         69.346 m   |Hz       318.1743 DMS |V1        91.1301 DMS | 
+For M5|Adr 00238|PI1                         208|SD         32.659 m   |Hz       308.3617 DMS |V1        91.0333 DMS | 
+For M5|Adr 00239|PI1                         209|SD         20.625 m   |Hz       303.1119 DMS |V1        91.1251 DMS | 
+For M5|Adr 00240|PI1                         210|SD          8.655 m   |Hz       280.4957 DMS |V1        91.2509 DMS | 
+For M5|Adr 00241|PI1                         211|SD         11.019 m   |Hz       166.3925 DMS |V1        89.4305 DMS | 
+For M5|Adr 00242|PI1                        TR01|                      |Hz        61.3249 DMS |V1        89.5153 DMS | 
+For M5|Adr 00243|PI1                        TR02|                      |Hz       355.2049 DMS |V1        88.2734 DMS | 
+For M5|Adr 00244|TI  START                      |01        M3 5"DR     |02         130676     |03           1.10     | 
+For M5|Adr 00245|TI                             |04             42     |                      |                      | 
+For M5|Adr 00246|TI                             |05              1     |06              2     |                      | 
+For M5|Adr 00247|TI                             |20              1     |21             11     |22             16     | 
+For M5|Adr 00248|TI                             |th          1.460 m   |ih          1.519 m   |                      | 
+For M5|Adr 00249|TI                             |i          0.0001 DMS |c         -0.0001 DMS |SZ         0.0002 DMS | 
+For M5|Adr 00250|TI                             |                      |                      |SK        -0.0003 DMS | 
+For M5|Adr 00251|TI                             |T_             20 C   |P             760 mmHg|PC         -0.030 m   | 
+For M5|Adr 00252|TI  END                        |m        1.000000     |                      |                      | 
+For M5|Adr 00253|PI1           A            R002|X           0.000 m   |Y           0.000 m   |Z           0.000 m   | 
+For M5|Adr 00254|TI  INPUT                      |th          1.460 m   |ih          1.597 m   |                      | 
+For M5|Adr 00255|PI1                        R001|SD         92.408 m   |Hz        43.1128 DMS |V1        91.1147 DMS | 
+For M5|Adr 00256|PI1                        R001|SD         92.424 m   |Hz       223.1140 DMS |V1       268.4834 DMS | 
+For M5|Adr 00257|PI1                      PP0294|SD         68.139 m   |Hz       206.4615 DMS |V1        88.5834 DMS | 
+For M5|Adr 00258|PI1                      PP0294|SD         68.149 m   |Hz        26.4621 DMS |V1       271.0154 DMS | 
+For M5|Adr 00259|PI1                      PP3420|SD        270.838 m   |Hz       216.0331 DMS |V1        89.2427 DMS | 
+For M5|Adr 00260|PI1                      PP3420|SD        270.847 m   |Hz        36.0347 DMS |V1       270.3554 DMS | 
+END
